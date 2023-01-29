@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEDRO PÁRAMO</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+ 
+ 
+  <body>
+    <header class="header" id="inicio">
+      <img
+        class="hamburguer"
+        src="images/icons8-menú.svg"
+        alt="menu_navegacion"
+      />
+      <nav class="menu-navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#formacion">Formación Académica</a>
+        <a href="#exp-laboral">Experiencia Laboral</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#footer">Redes</a>
+      </nav>
+      <div class="contenedor-head">
+        <img
+          class="foto-perfil"
+          src="images/foto-perfil.webp"
+          alt="foto-perfil"
+        />
+        <h1 class="titulo">
+          PEDRO PÁRAMO <br />
+          Developer FullStack
+        </h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="formacion-academica" id="formacion">
+        <h3 class="subtitulo"><strong>Formación Académica</strong></h3>
+        <div class="contenedor-formacion">
+          <div class="checklist-formacion">
+            <div class="formacion">
+              <h3 class="n-formacion"><span class="number">1</span></h3>
+              <p>
+                Ingeniería Técnica en Informática de Sistemas Universidad
+                de Buenos Aires 2013-2017.
+              </p>
+            </div>
+            <div class="formacion">
+              <h3 class="n-formacion"><span class="number">2</span></h3>
+              <p>
+                Mejor promedio de la generación. 3° lugar en el
+                Hackaton CodeFest 2014.
+              </p>
+            </div>
+            <div class="formacion">
+              <h3 class="n-formacion"><span class="number">3</span></h3>
+              <p>Ganador de la beca de Excelencia Académica 2016.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experiencia-contenedor" id="exp-laboral">
+        <h3 class="subtitulo"><strong>Experiencia Laboral</strong></h3>
+        <section class="experiencia">
+          <div class="cont-exp">
+            <img src="images/data_analytics3.png" alt="" />
+            <h3 class="n-experiencia">ANALITYCS</h3>
+            <div class="container_exp">
+              <p class="experiencia_part">
+                Desarrollador Web Flame Analytics <br />
+                Enero 2016 - Agosto 2017 </p>
+                <p> A lo largo de mi estancia, participé en más de 15 proyectos
+                digitales y colaboré con un equipo de diseñadores, copywriters
+                creativos, project managers y Q&A testers. Como parte del comité
+                de mejoras continuas de la empresa, colaboré para optimizar los
+                tiempos de carga de la página web en un 15%.
+              </p>
+            </div>
+          </div>
+          <div class="cont-exp">
+            <img src="images/seo1.jpg" alt="" />
+            <h3 class="n-experiencia">SEO</h3>
+            <div class="container_exp">
+              <p class="experiencia_part">
+                Programador Web Banco Santander <br />
+                Agosto 2017 - Diciembre 2019 </p>
+               <p> Responsable la creación de un comparador de tarjetas de crédito
+                que elevó las ventas de producto en un 15% en el primer
+                trimestre y 19% en el segundo. Desarrollé una aplicación
+                bancaria especializada en seguros de vehículos en vacaciones, la
+                cual recibió una calificación de 4.75 estrellas.
+              </p>
+            </div>
+          </div>
+          <div class="cont-exp">
+            <img src="images/ciberseguridad3.png" alt="" />
+            <h3 class="n-experiencia">SECURITY</h3>
+            <div class="container_exp">
+              <p class="experiencia_part">
+                Creador del blog www.codigoar.com, especializado en consejos de
+                programación y seguridad web. </p>
+                <p> Frente a las amenazas, que crecen día a día, la Ciberseguridad
+                no puede funcionar como una suma de elementos aislados. Con
+                nuestro Ecosistema de Ciberseguridad, tu empresa estará mucho
+                más protegida de riesgos tecnológicos de última generación.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="portafolio" id="portafolio">
+          <div class="contenedor">
+            <h3 class="subtitulo"><strong>Portafolio</strong></h3>
+            <div class="contenedor-portafolio">
+              <img
+                src="images/home_uno.jpg"
+                class="img-galeria-portafolio"
+                alt=""
+              />
+              <img
+                src="images/home_dos.jpg"
+                class="img-galeria-portafolio"
+                alt=""
+              />
+              <img
+                src="images/home_tres.png"
+                class="img-galeria-portafolio"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <div class="imagen-light">
+          <img src="images/close.svg" alt="" class="close" />
+          <img src="" alt="" class="agregar-imagen" />
+        </div>
+      </section>
+      <section>
+        <form class="form" id="contacto">
+          <fieldset>
+            <legend><h3 class="contacto-title">Contacto</h3></legend>
+            <input class="form1" type="nombre" placeholder="Nombre" />
+            <br />
+            <br />
+            <input class="form1" type="apellido" placeholder="Apellido" />
+            <br />
+            <br />
+            <input class="form1" type="email" placeholder="Email" />
+            <br />
+            <br />
+            <input class="form1" type="teléfono" placeholder="Teléfono" />
+            <br />
+            <br />
+            <textarea class="form1" cols="30" rows="10">
+Escribe aquí...</textarea
+            >
+            <br />
+            <input class="send" type="submit" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="contenedor footer-content">
+        <div class="contact-us">
+          <h2 class="brand">PEDRO PÁRAMO</h2>
+          <p>Experiencia en la realización de tus ideas</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/"
+            class="social-media-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a
+            href="https://twitter.com/?lang=es"
+            class="social-media-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            class="social-media-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://ar.linkedin.com/"
+            class="social-media-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
